@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #0770be;
+}
+
+h1{
+    font-weight: 400;
+}
+
+hr{
+    height: 4px;
+    background: #ea5100;
+    border: none;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 500px;
+    background: #fff;
+    padding: 40px;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+.container:hover{
+    transform: translate(-5px, -10px);
+    box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.40);
+}
+
+.tags{
+    position: relative;
+    padding: 5px 60px 5px 50px;
+    margin-left: -51px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: 100;
+    background-image: 
+        linear-gradient(45deg, #ea5100, #ea5100 32px, rgba(0,0,0,0) 32px),
+        linear-gradient(135deg, #ea5100, #ea5100 32px, rgba(0,0,0,0) 32px),
+        linear-gradient(135deg, #ea5100, #ea5100);
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 100% 100%, -32px 100%;
+    background-size: 48px 100%, 48px 100%, 100% 100%;
+    cursor: default;
+}
+
+.tags:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: .25em solid transparent;
+    border-bottom-color: #a00;
+    border-right-color: #a00;
+    top: -11px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
